@@ -5,75 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: start;
-            align-items: center;
-            flex-direction: column;
-            /* Align items vertically */
-            height: 100vh;
-        }
-
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
-            width: 300px;
-            margin: 10px;
-            /* Add margin to separate forms */
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-            color: #555;
-        }
-
-        input[type="text"],
-        input[type="password"],
-        select {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 14px;
-        }
-
-        input[type="submit"] {
-            background-color: #5cb85c;
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #4cae4c;
-        }
-
-        .message {
-            text-align: center;
-            margin-top: 15px;
-            color: #d9534f;
-            font-size: 14px;
-        }
-    </style>
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
@@ -103,7 +35,7 @@
 
     <div class="container">
         <h2>Order Fast Food</h2>
-        <form action="./form.php" method="POST">
+        <form action="./form_handling.php" method="POST">
             <div>
                 <label for="food-item">Select Food Item</label>
                 <select name="food-item" required>

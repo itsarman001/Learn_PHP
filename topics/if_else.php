@@ -4,32 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ifelse</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h2 {
-            color: #4CAF50;
-        }
-        .form-section {
-            margin-bottom: 2rem;
-        }
-        .code-block, .output-block {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <h2>Conditionals and If Else</h2>
 
     <!-- Weekly Pay Form -->
     <div class="form-section">
-        <form action="./ifelse.php" method="post">
+        <form action="./if_else.php" method="post">
             <div>
                 <label for="weekly_hours">Weekly Hours: </label>
                 <input type="number" name="weekly_hours" placeholder="Enter Value" required>
@@ -63,7 +45,7 @@
 
     <!-- Citizenship and Age Form -->
     <div class="form-section">
-        <form action="./4_conditionals.php" method="post">
+        <form action="./if_else.php" method="post">
             <div>
                 <label for="citizen">Are you a Citizen</label>
                 <select name="citizen" required>
