@@ -33,7 +33,8 @@
                     ["Associative Arrays", "./topics/associative_arrays.php"],
                     ["Isset and Empty", "./topics/isset_empty.php"],
                     ["Radio Button", "./topics/radio_button.php"],
-                    ["Checkboxes", "./topics/checkboxes.php"]
+                    ["Checkboxes", "./topics/checkboxes.php"],
+                    ["Cookies", "./topics/cookie.php"],
                 ];
 
                 foreach ($topics as $index => $topic) {
