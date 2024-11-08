@@ -89,6 +89,41 @@
         ?>
     </div>
 
+    <div class="container">
+        <h2>Calculate the average of an array of temperatures (minimum length of 15)</h2>
+
+        <?php
+        echo "<h3>Array of temperatures</h3>";
+
+
+        $temperatures = [];
+        for ($i = 0; $i < 15; $i++) {
+            $temperatures[] = mt_rand(-100, 400) / 10;
+        }
+
+
+        foreach ($temperatures as $temp) {
+            echo $temp . ", ";
+        }
+
+        echo "<br>";
+
+
+        $average = array_sum($temperatures) / count($temperatures);
+        echo "Average of the array: " . round($average, 2);
+
+
+        sort($temperatures);
+        $smallest = array_slice($temperatures, 0, 5);
+        $largest = array_slice($temperatures, -5);
+
+        echo "<br><br>5 Smallest Temperatures: " . implode(", ", $smallest);
+        echo "<br>5 Largest Temperatures: " . implode(", ", $largest);
+        ?>
+
+    </div>
+
+
 
 </body>
 

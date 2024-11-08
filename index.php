@@ -31,6 +31,7 @@
                     ["Arrays", "./topics/arrays.php"],
                     ["Arrays Tasks", "./topics/array_tasks.php"],
                     ["Associative Arrays", "./topics/associative_arrays.php"],
+                    ["String", "./topics/string.php"],
                     ["Isset and Empty", "./topics/isset_empty.php"],
                     ["Radio Button", "./topics/radio_button.php"],
                     ["Checkboxes", "./topics/checkboxes.php"],
