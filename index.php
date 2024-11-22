@@ -36,6 +36,7 @@
                     ["Radio Button", "./topics/radio_button.php"],
                     ["Checkboxes", "./topics/checkboxes.php"],
                     ["Cookies", "./topics/cookie.php"],
+                    ["Functions", "./topics/functions.php"]
                 ];
 
                 foreach ($topics as $index => $topic) {
