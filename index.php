@@ -43,7 +43,7 @@
                     echo "<tr>";
                     echo "<td>" . ($index + 1) . "</td>";
                     echo "<td><h4>" . $topic[0] . "</h4></td>";
-                    echo "<td><a href='" . $topic[1] . "'>Link</a></td>";
+                    echo "<td><a href='" . $topic[1] . "'>Open</a></td>";
                     echo "</tr>";
                 }
                 ?>
